@@ -3,12 +3,12 @@ import Layout from "../components/layout";
 
 type Props = {};
 
-function Home({}: Props) {
+function Resume({}: Props) {
   return (
     <Layout>
-      <div style={{ color: "#fff" }}>Home</div>
+      <p style={{ color: "#fff" }}>Resume</p>
     </Layout>
   );
 }
 
-export default Home;
+export default Resume;
