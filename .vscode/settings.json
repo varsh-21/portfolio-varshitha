@@ -3,5 +3,8 @@
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.bracketPairColorization.enabled": true,
-  "editor.wordWrap": "on"
+  "editor.wordWrap": "on",
+  "files.associations": {
+    "*.scss": "scss"
+  }
 }

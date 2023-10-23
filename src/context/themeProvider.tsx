@@ -34,7 +34,7 @@ export const ThemeProvider: React.FC = ({ children }) => {
     ) {
       return "dark";
     }
-    return "light";
+    return "dark";
   }
 
   const toggleTheme = () => {

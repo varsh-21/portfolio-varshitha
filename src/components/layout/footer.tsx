@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
       <p style={{ color: theme.colors.oppositePrimary }}>
         All materials © Varshitha {new Date().getFullYear()}
       </p>
-      <div onClick={copyWebsite} className="share-icon">
+      {/* <div onClick={copyWebsite} className="share-icon">
         <div
           className="copy-text"
           style={{
@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
         >
           {copyStatus && "copied"}
         </div>
-      </div>
+      </div> */}
     </footer>
   );
 };

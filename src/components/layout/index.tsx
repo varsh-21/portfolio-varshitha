@@ -1,6 +1,8 @@
 import * as React from "react";
 import Header from "./header";
+import { StaticImage } from "gatsby-plugin-image"
 import Footer from "./footer";
+// import Bio from '../../pages/bio'
 import { ThemeContext } from "../../context/themeProvider";
 
 interface Props {
