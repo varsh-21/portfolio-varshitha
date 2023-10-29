@@ -1,39 +1,16 @@
+/* eslint-disable */
 import React, { useState, useEffect } from "react";
 import { Link, navigate } from "gatsby";
 import Logo from "../../icons/logo";
-import HomeIcon from "../../icons/Home";
-import CloseMenu from "../../assets/close.png";
-import menuIcon from "../../assets/menu.png";
+// import HomeIcon from "../../icons/Home";
+// import CloseMenu from "../../assets/close.png";
+// import menuIcon from "../../assets/menu.png";
 // import { CSSTransition } from "react-transition-group";
 import { StaticImage } from "gatsby-plugin-image";
+interface CloseMenuProps {}
 
-const Header: React.FC = (props) => {
+const Header: React.FC<CloseMenuProps> = (props) => {
   const [isMenuShown, setIsMenuShown] = useState(false);
-  // const [isNavVisible, setNavVisibility] = useState(false);
-  // const [isSmallScreen, setIsSmallScreen] = useState(false);
-
-  // useEffect(() => {
-  //   const mediaQuery = window.matchMedia("(max-width: 700px)");
-  //   handleMediaQueryChange(mediaQuery)
-  //   mediaQuery.addEventListener('click',handleMediaQueryChange);
-  //   handleMediaQueryChange(mediaQuery);
-
-  //   return () => {
-  //     mediaQuery.removeEventListener('click',handleMediaQueryChange);
-  //   };
-  // }, []);
-
-  // const handleMediaQueryChange = mediaQuery => {
-  //   if (mediaQuery.matches) {
-  //     setIsSmallScreen(true);
-  //   } else {
-  //     setIsSmallScreen(false);
-  //   }
-  // };
-
-  // const toggleNav = () => {
-  //   setNavVisibility(!isNavVisible);
-  // };
 
   return (
     <header className="header-container flex center">
@@ -41,15 +18,8 @@ const Header: React.FC = (props) => {
         <Logo />
       </Link>
 
-      {/* <div className="menu-links"> */}
-      {/* <CSSTransition
-        in={!isSmallScreen || isNavVisible}
-        timeout={350}
-        classNames="NavAnimation"
-        unmountOnExit
-      > */}
       <div className="navigation">
-        <div
+        {/* <div
           onClick={() => setIsMenuShown(!isMenuShown)}
           className="nav-mobile"
         >
@@ -62,10 +32,10 @@ const Header: React.FC = (props) => {
               <img src={menuIcon} alt="Logo" style={{ width: "3rem" }} />
             </div>
           )}
-        </div>
+        </div> */}
         <div className={!isMenuShown ? "nav-container" : "nav-links"}>
           <Link className="nav-link text-3xl font-bold underline" to={"/"}>
-            <HomeIcon color="#fff" />
+            Home
           </Link>
           <Link className="nav-link" to={"/gallery"}>
             Gallery
