@@ -3,11 +3,10 @@
 import React, { useState, useEffect } from "react";
 import { Link, navigate } from "gatsby";
 import Logo from "../../icons/logo";
-import HomeIcon from "../../icons/Home";
+import HomeIcon from "../../icons/home";
 import CloseMenu from "../../assets/close.png";
 import menuIcon from "../../assets/menu.png";
-// import { CSSTransition } from "react-transition-group";
-import { StaticImage } from "gatsby-plugin-image";
+
 
 const Header: React.FC = (props) => {
   const [isMenuShown, setIsMenuShown] = useState(false);
