@@ -1,12 +1,12 @@
 import React from "react";
 
-function linkedin({ color, width }) {
+function linkedin({ color, width }:any) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width={width}
       fill="currentColor"
-      className="bi bi-linkedin"
+      className="li-linkedin"
       viewBox="0 0 16 16"
     >
       {" "}

@@ -17,8 +17,6 @@ function Home({}: Props) {
           quality={95}
           formats={["auto", "webp", "avif"]}
           alt="Varshitha BR"
-          // imgStyle={{ borderRadius: "50%" }}
-          // style={{ borderRadius: "50%" }}
         />
         <div className="varsh_bio" style={{ color: "#fff" }}>
           <h2>Hi,&thinsp;I'm Varshitha</h2>

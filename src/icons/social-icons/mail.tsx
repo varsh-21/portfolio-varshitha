@@ -11,13 +11,14 @@
 
 import React from "react";
 
-function mail({ color, width }) {
+function mail({ color, width }: any) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       version="1.0"
       viewBox="0 0 402 300"
       width={width}
+      className="mail"
       height={60}
     >
       <path

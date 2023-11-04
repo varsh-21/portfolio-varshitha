@@ -225,3 +225,34 @@ h1 {
   max-width: 48rem;
   margin: 0 auto;
 }
+/* social icons */
+.social-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .linkedIn {
+    padding: 0 20px;
+  }
+  .instagram {
+    padding: 0 0 0 10px;
+  }
+}
+.share-icon {
+  .social-icon-container {
+    height: 0.5rem;
+  }
+  .li-linkedin,
+  .instagram {
+    height: 20px;
+  }
+  .li-linkedin:hover,
+  .instagram:hover {
+    height: 25px;
+  }
+  .mail {
+    height: 48px;
+  }
+  .mail:hover {
+    height: 55px;
+  }
+}

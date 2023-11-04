@@ -1,11 +1,11 @@
 import React from "react";
-const IgIcon = ({ color, width }) => {
+const IgIcon = ({ color, width }: any) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width={width}
       fill="currentColor"
-      // class="bi bi-instagram"
+      className="instagram"
       viewBox="0 0 16 16"
     >
       {" "}
