@@ -14,7 +14,7 @@ function SocialIcons({ size }: SocialIconsProps) {
     <div className="social-icon-container">
       <Link
         className="linkedIn"
-        to={"https://www.linkedin.com/in/varshitha-br-6b7823171"}
+        to={"https://www.linkedin.com/in/varshitha-br"}
         target="_blank"
         rel="noreferrer"
       >
@@ -33,10 +33,11 @@ function SocialIcons({ size }: SocialIconsProps) {
         </div>
       </Link>
       <Link
-        className="i"
+        className="i" 
         to={"mailto:varshithabr2@gmail.com"}
         target="_blank"
         rel="noreferrer"
+        method="post"
       >
         <div>
           <Mail width={size || "100"} color={"#fff"} />
