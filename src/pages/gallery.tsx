@@ -239,7 +239,7 @@ function Gallery({}: Props) {
           </div>
           <div className="item item--medium">
             <StaticImage
-              src="../assets/haldi_friends2.JPG"
+              src="../assets/haldi_friends2.jpg"
               height={1000}
               width={800}
               quality={95}
