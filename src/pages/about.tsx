@@ -13,7 +13,7 @@ function About() {
             Hey there!👋 I am <b>Varshitha</b> aka <b>Varsh</b>.{" "}
           </p>
           <p style={{ color: "#fff" }}>
-            Lets start from beginning, I was born in Channaraypatna,
+            Lets start from beginning, I was born in Channarayapatna,
             Hasssan(Karnataka). I am brought up in Bengaluru.{" "}
           </p>
           <p style={{ color: "#fff" }}>
@@ -29,7 +29,7 @@ function About() {
             <br />
             Family...
             <p style={{ color: "#fff" }}>
-              We are family of four, mother is homemaker, Father works in
+              We are family of four, mother is Home Scientist, Father works in
               Healthcare, I have an elder sister(Vas) I am the younger one,
               super pampered.
             </p>
