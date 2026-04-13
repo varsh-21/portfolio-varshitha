@@ -20,10 +20,10 @@ function About() {
             Started my schooling 📚 in RVPS(Lalbagh),Scase(Konankunate),
             completed my +1+2 at (DJS)Deeksha Jnana Sweekar in PCMB 🎒
             <p style={{ color: "#fff" }}>
-              I have pursued my Bachelor’s in Information Science from SJB
+              I have pursued my Bachelor’s in Computer  Science from SJB
               Institute of Technologies.👩‍🎓
             </p>
-            Currently, working at a startup Trika Technologies on E-commerce
+            Currently, working at a startup on E-commerce
             domain.👩‍💻 <br />
             <br />
             <br />

@@ -14,7 +14,7 @@ function SocialIcons({ size }: SocialIconsProps) {
     <div className="social-icon-container">
       <Link
         className="linkedIn"
-        to={"https://www.linkedin.com/in/varshitha-br"}
+        to={"https://www.linkedin.com/in/varshitha-br-6b7823171"}
         target="_blank"
         rel="noreferrer"
       >

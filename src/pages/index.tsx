@@ -13,9 +13,9 @@ function Home({}: Props) {
       {/* Hero Section */}
       <div className="varsh_bio">
         <StaticImage
-          src="../assets/profile1.jpg"
-          height={350}
-          width={700}
+          src="../assets/Hello.webp"
+          height={200}
+          width={200}
           quality={95}
           formats={["auto", "webp", "avif"]}
           alt="Varshitha BR"
@@ -35,6 +35,14 @@ function Home({}: Props) {
               Resume
             </a>
           </div>
+          <StaticImage
+            src="../assets/laptop.webp"
+            height={200}
+            width={200}
+            quality={95}
+            formats={["auto", "webp", "avif"]}
+            alt="Varshitha BR"
+          />
           <SocialIcons />
         </div>
       </div>

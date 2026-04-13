@@ -30,7 +30,7 @@ function Gallery({}: Props) {
           <div className="item item--large">
             <StaticImage
               src="../assets/hbd.jpg"
-              height={850}
+              height={860}
               width={600}
               quality={95}
               formats={["auto", "webp", "avif"]}
@@ -63,7 +63,7 @@ function Gallery({}: Props) {
           <div className="item item--large">
             <StaticImage
               src="../assets/vas_n_me_white_lehenga.jpg"
-              height={800}
+              height={854}
               width={600}
               quality={95}
               formats={["auto", "webp", "avif"]}
@@ -162,14 +162,14 @@ function Gallery({}: Props) {
           </div>
           <div className="item item--large">
             <StaticImage
-              src="../assets/trika.jpg"
-              height={1500}
-              width={1300}
+              src="../assets/Passport-photo.jpg"
+              height={1300}
+              width={900}
               quality={95}
               formats={["auto", "webp", "avif"]}
               alt="Varshitha BR"
             />
-            <div className="item__details">~ Trika</div>
+            <div className="item__details">~ YO</div>
           </div>
           <div className="item item--full">
             <StaticImage
@@ -184,7 +184,7 @@ function Gallery({}: Props) {
           </div>
           <div className="item item--medium">
             <StaticImage
-              src="../assets/tea_estate.jpg"
+              src="../assets/tea_estate.jpg" 
               height={1000}
               width={900}
               quality={95}
