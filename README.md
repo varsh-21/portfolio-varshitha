@@ -16,6 +16,10 @@
     ```shell
     # create a new Gatsby site using the minimal TypeScript starter
     npm init gatsby -- -ts
+    
+    npm install --legacy-peer-deps
+
+    
     ```
 
 2.  **Start developing.**
@@ -25,6 +29,8 @@
     ```shell
     cd my-gatsby-site/
     npm run develop
+
+    npm start
     ```
 
 3.  **Open the code and start customizing!**
