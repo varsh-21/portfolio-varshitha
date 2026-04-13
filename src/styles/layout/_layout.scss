@@ -13,6 +13,9 @@ main {
   padding: 20px; /* Add padding to the main content area */
   padding-bottom: 80px; /* Add additional padding for the sticky footer */
 }
+@media screen {
+  
+}
 
 @media screen and (min-width: 768px) {
   section {
@@ -29,7 +32,7 @@ section {
 }
 
 footer {
-  background-color: #f2f2f2;
+  background-color: black;
   padding: 20px;
   position: fixed;
   bottom: 0;
@@ -215,6 +218,8 @@ h1 {
   .instagram {
     padding: 0 0 0 20px;
   }
+  .github{
+  }
 }
 
 .form_container {
@@ -255,4 +260,300 @@ h1 {
   .mail:hover {
     height: 55px;
   }
+  .github{
+    height: 22px;
+  }
+  .github:hover{
+    height: 55px;
+  }
+}
+
+// more about
+/* Animations */
+.fade-in {
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.slide-up {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.slide-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hero */
+.varsh_hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 4rem 1rem 2rem;
+}
+
+.varsh_tagline {
+  font-size: 13px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #4493f8;
+}
+
+.varsh_avatar_wrap {
+  border-radius: 50%;
+  border: 3px solid #4493f8;
+  padding: 4px;
+  animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(68, 147, 248, 0.4); }
+  50%       { box-shadow: 0 0 0 12px rgba(68, 147, 248, 0); }
+}
+
+.varsh_name {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+}
+
+.varsh_pronoun {
+  font-size: 1rem;
+  color: #888;
+  font-weight: 400;
+}
+
+.varsh_role {
+  font-size: 1.1rem;
+  color: #4493f8;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.varsh_cta_text {
+  font-size: 1rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+.varsh_cta_buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Buttons */
+.varsh_btn {
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  font-size: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.varsh_btn_primary {
+  background: #4493f8;
+  color: #fff;
+  border: none;
+}
+
+.varsh_btn_primary:hover { background: #2a7de0; }
+
+.varsh_btn_outline {
+  background: transparent;
+  color: #4493f8;
+  border: 1px solid #4493f8;
+}
+
+.varsh_btn_outline:hover { background: rgba(68,147,248,0.1); }
+
+/* Sections */
+.varsh_section {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.varsh_section_title {
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 1.2rem;
+  position: relative;
+  display: inline-block;
+}
+
+.varsh_section_title::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #4493f8;
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+
+.varsh_about_tagline {
+  font-size: 1.1rem;
+  color: #4493f8;
+  margin-bottom: 1rem;
+}
+
+.varsh_about_text {
+  color: #ccc;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 0.8rem;
+}
+
+.varsh_about_fun {
+  color: #aaa;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+/* Highlights */
+.varsh_highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 1.2rem;
+}
+
+.varsh_badge {
+  background: rgba(68, 147, 248, 0.15);
+  color: #4493f8;
+  border: 1px solid #4493f840;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+/* Skills */
+.varsh_skills_grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  justify-content: center;
+}
+
+.varsh_skill_tag {
+  background: #1a1a2e;
+  color: #ccc;
+  border: 1px solid #333;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  transition: all 0.2s;
+}
+
+.varsh_skill_tag:hover {
+  border-color: #4493f8;
+  color: #4493f8;
+}
+
+/* Timeline */
+.varsh_timeline {
+  text-align: left;
+  position: relative;
+  padding-left: 1.5rem;
+  border-left: 2px solid #4493f830;
+}
+
+.varsh_timeline_item {
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.varsh_timeline_dot {
+  position: absolute;
+  left: -2.1rem;
+  top: 4px;
+  width: 12px;
+  height: 12px;
+  background: #4493f8;
+  border-radius: 50%;
+}
+
+.varsh_exp_date {
+  font-size: 12px;
+  color: #4493f8;
+  letter-spacing: 1px;
+}
+
+.varsh_exp_role {
+  font-size: 1.1rem;
+  color: #fff;
+  margin: 4px 0;
+}
+
+.varsh_exp_company {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-bottom: 0.6rem;
+}
+
+.varsh_exp_company a {
+  color: #4493f8;
+  text-decoration: none;
+}
+
+.varsh_exp_list {
+  color: #bbb;
+  font-size: 0.9rem;
+  line-height: 1.8;
+  padding-left: 1.2rem;
+}
+
+/* Education */
+.varsh_edu_card {
+  background: #111827;
+  border: 1px solid #4493f830;
+  border-radius: 12px;
+  padding: 1.5rem;
+  color: #ccc;
+}
+
+.varsh_edu_card h3 {
+  color: #fff;
+  margin: 0 0 0.5rem;
+}
+
+.varsh_edu_card p {
+  margin: 0;
+  color: #aaa;
+}
+
+/* GitHub Stats */
+.varsh_stats_grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.varsh_stats_grid img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Contact */
+.varsh_contact {
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }

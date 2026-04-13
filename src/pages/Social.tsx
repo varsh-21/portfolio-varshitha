@@ -43,6 +43,16 @@ function SocialIcons({ size }: SocialIconsProps) {
           <Mail width={size || "100"} color={"#fff"} />
         </div>
       </Link>
+      <Link
+        className={"github"}
+        to={"https://github.com/varsh-21"}
+        target="_blank"
+        rel="noreferrer" 
+        >
+        <div>
+          <Github width={size || "28"} color={"#ffffff"} />
+        </div>
+        </Link>
     </div>
   );
   return <div className="social-icons">{icons}</div>;

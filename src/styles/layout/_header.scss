@@ -138,8 +138,12 @@ header {
   }
 
   .nav-link {
-    color: #fff;
-    padding: 3px 0;
+    color: #fff !important;
+    padding: 3px 0 !important;
     text-decoration: none !important;
   }
+}
+.nav-link {
+   color: #4493f8;
+   text-decoration: none !important;
 }
