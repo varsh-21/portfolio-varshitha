@@ -31,6 +31,22 @@
     npm run develop
 
     npm start
+    
+gatsby develop
+gatsby clean
+rm -rf .cache public
+rm -rf node_modules package-lock.json
+npm install
+
+
+    OTHER DEPENDENCY
+    rm -rf node_modules package-lock.json .cache public
+    npm install ajv@^8 ajv-keywords@^5
+    npm install
+    npm install schema-utils@latest
+    npm install typescript @types/react @types/react-dom @types/node
+
+    
     ```
 
 3.  **Open the code and start customizing!**
